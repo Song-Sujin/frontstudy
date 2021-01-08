@@ -5,22 +5,21 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src="index.js">
+        /*
+        window : 웹 브라우저를 조작하는 객체
+        window.location : 브라우저의 주소창을 조작하는 객체
+        window.history : 뒤로가기, 앞으로 가기. 사용자가 검색했던 히스토리 조작하는 객체
+        window.document : 내용을 조작하는 객체
+        => 사용할때 window는 생략 가능
+        */
+
+    </script>
+    <script src="test.js"></script>
 </head>
 <body>
-    <script>
-        // var exam = new Object();
-        // exam.kor = 30;
-        // exam.eng = 70;
-        // exam.math = 80;
-
-        var exam = {"kor":30, "eng":70, "math":80};
-        var ar = [3,4,5,6,exam,[7,8,9]];
-
-        var notice = {"id":1, "title":"hello"};
-        console.log(notice.title);
-        console.log(ar[4].math);
-    </script>
+    <input type="button" value="클릭" id="btn-print"/><br />
+    <span id="span1">스팬입니다.</span>
+    
 </body>
 </html>
